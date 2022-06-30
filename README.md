@@ -105,7 +105,7 @@ zip -r filename.zip /path/to/folder1 /path/to/file2
 
 - [Reference](https://www.cyberciti.biz/faq/how-to-zip-a-folder-in-ubuntu-linux/)
 
-## Download zip from server usins ssh
+## Download zip from server using ssh
 
 - [Reference](https://tecadmin.net/download-file-using-ssh/)
 
