@@ -103,11 +103,11 @@ sudo apt install zip unzip
 
 zip -r filename.zip /path/to/folder1 /path/to/file2
 
-- [Reference](https://www.cyberciti.biz/faq/how-to-zip-a-folder-in-ubuntu-linux/)
+- [How to zip a folder](https://www.cyberciti.biz/faq/how-to-zip-a-folder-in-ubuntu-linux/)
 
 ## Download zip from server using ssh
 
-- [Reference](https://tecadmin.net/download-file-using-ssh/)
+- [Download file from server](https://tecadmin.net/download-file-using-ssh/)
 
 ## Open file using CLI
 
