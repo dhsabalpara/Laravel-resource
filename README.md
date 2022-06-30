@@ -75,8 +75,10 @@ sudo /opt/lampp/lampp restart
 
 - Store Image in DataBase
 
+   First run php artisan storage:link command
+   
 ```php
-   $profilePic = $request->file('image_name')->store('image_name',['disk' => 'public']);
+   $profilePic = $request->file('image_name')->store('folder_name',['disk' => 'public']);
 ```
 
 - Fetch Image
@@ -90,3 +92,24 @@ sudo /opt/lampp/lampp restart
 ```php
    $image = Storage::delete('public'.'/'.$image_name);
 ```
+
+## Zip Unzip file 
+
+- Install Zip Unzip
+
+sudo apt install zip unzip
+
+- Make zip file
+
+zip -r filename.zip /path/to/folder1 /path/to/file2
+
+- [Reference](https://www.cyberciti.biz/faq/how-to-zip-a-folder-in-ubuntu-linux/)
+
+## Download zip from server usins ssh
+
+- [Reference](https://tecadmin.net/download-file-using-ssh/)
+
+## Open file using CLI
+
+sudo nano file_path
+
